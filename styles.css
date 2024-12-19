@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+#typing-test {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#text-to-type p {
+  font-size: 20px;
+  color: #333;
+  display: inline-block;
+}
+
+#keyboard {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.key {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.key.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.key.error {
+  background-color: #f44336;
+}
+
+#stats {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#sentence span {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.highlight {
+  background-color: #ffeb3b;
+}
